@@ -6,12 +6,12 @@
 /*   By: wtangcha <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/28 15:39:29 by wtangcha          #+#    #+#             */
-/*   Updated: 2022/11/28 15:43:06 by wtangcha         ###   ########.fr       */
+/*   Updated: 2022/12/01 16:01:38 by wtangcha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*#include <stdio.h>
-int main(void) {
+#include <stdio.h>
+/*int main(void) {
 	printf("%d -> %d\n", 0, ft_is_prime(0));
 	printf("%d -> %d\n", 1, ft_is_prime(1));
 	printf("%d -> %d\n", 2, ft_is_prime(2));
@@ -40,4 +40,13 @@ int	ft_is_prime(int nb)
 		return (1);
 	else
 		return (0);
+}
+
+int main(void) {
+        printf("%d -> %d\n", 0, ft_is_prime(0));
+        printf("%d -> %d\n", 1, ft_is_prime(1));
+        printf("%d -> %d\n", 2, ft_is_prime(2));
+        printf("%d -> %d\n", 3, ft_is_prime(3));
+        printf("%d -> %d\n", 10, ft_is_prime(10));
+  return 0;
 }

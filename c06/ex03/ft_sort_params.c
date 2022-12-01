@@ -6,7 +6,7 @@
 /*   By: wtangcha <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/30 11:39:41 by wtangcha          #+#    #+#             */
-/*   Updated: 2022/11/30 11:47:17 by wtangcha         ###   ########.fr       */
+/*   Updated: 2022/12/01 14:01:02 by wtangcha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,18 +24,18 @@ int	ft_strcmp(const char *a, const char *b)
 
 void	ft_sort_strings(int num, char **s)
 {
-	int	i;
-	int	j;
+	int		i;
+	int		j;
 	char	*temp;
 
 	i = 1;
 	while (i < num)
 	{
 		j = i;
-		while (j > 0 && ft_strcmp(s[j-1], s[j]) > 0)
+		while (j > 0 && ft_strcmp(s[j - 1], s[j]) > 0)
 		{
-			temp = s[j-1];
-			s[j-1] = s[j];
+			temp = s[j - 1];
+			s[j - 1] = s[j];
 			s[j] = temp;
 			j--;
 		}

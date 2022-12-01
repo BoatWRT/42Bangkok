@@ -6,7 +6,7 @@
 /*   By: wtangcha <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 10:43:51 by wtangcha          #+#    #+#             */
-/*   Updated: 2022/11/30 10:29:21 by wtangcha         ###   ########.fr       */
+/*   Updated: 2022/12/01 15:40:01 by wtangcha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int	main(int argc, char **argv)
 	int	i;
 
 	i = argc - 1;
-	if (argc > 0)
+	if (argc > 1)
 	{
 		while (argv[i] != NULL && argc != '\0')
 		{
